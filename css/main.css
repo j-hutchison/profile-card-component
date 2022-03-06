@@ -1,0 +1,127 @@
+/******************
+ELEMENT TAGS
+******************/
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	height: 100vh;
+
+	font-family: "Kumbh Sans", sans-serif;
+	font-size: 1.6rem;
+
+	background-color: #19a1ae;
+	color: #2e3349;
+	overflow: hidden;
+}
+
+.container {
+	position: relative;
+}
+
+.bg-image--top {
+	position: absolute;
+	bottom: 10rem;
+	right: 20rem;
+	z-index: -1;
+}
+
+.bg-image--bottom {
+	position: absolute;
+	top: 15rem;
+	left: 20rem;
+	z-index: -1;
+}
+
+.profile-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 35rem;
+	background-color: #fff;
+	border-radius: 1.5rem;
+	box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+	overflow: hidden;
+}
+
+.img-avatar {
+	width: 9.6rem;
+
+	position: absolute;
+	top: 14rem;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	border: 5px solid #ffffff;
+}
+.heading-primary {
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 2.2rem;
+	padding-top: 7.2rem;
+}
+
+.influencer-name {
+	margin-bottom: 0.8rem;
+}
+
+.heading-age {
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #6b7082;
+	padding-left: 0.8rem;
+}
+.heading-secondary {
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: #6b7082;
+	margin-bottom: 2.8rem;
+}
+.socials {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	gap: 4.5rem;
+	padding: 2.4rem;
+	border-top: 1px solid #e8e9ec;
+}
+.social-col {
+	text-align: center;
+}
+.social-metric {
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.social-heading {
+	font-size: 1rem;
+	color: #6b7082;
+	letter-spacing: 1.5px;
+}
+
+.attribution {
+	padding-top: 5rem;
+	font-size: 11px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+.attribution a {
+	color: #fff;
+	text-decoration: none;
+}
